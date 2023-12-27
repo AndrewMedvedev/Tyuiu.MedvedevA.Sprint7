@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBoxBase_ZAA.Text" xml:space="preserve">
+    <value>Инструкция для использования приложения поиска информации в таблице с использованием фильтров:
+
+Для того, чтобы работать со статистическими данными видеоленты, следуйте данным шагам:
+
+Шаг 1: Нажмите кнопку "Открыть", чтобы выбрать нужный файл с вашего устройства и загрузить таблицу, в которой вы хотите искать информацию. Или, нажав на кнопку "Создать", создайте новый каталог видео.
+
+Шаг 2: Ознакомьтесь с таблицей, чтобы понять, какие данные в ней содержатся и как они организованы. Обратите внимание на названия столбцов и их содержимое.
+
+Шаг 3: Выберите в выпадающем списке "Поле" столбец, по которому вы хотите найти информацию. Это можно сделать, щелкнув на название соответствующего столбца в выпадающем списке. Далее для нахождения данных в столбце, в котором есть определенные значения, введите это значение в поле "Поиск". Далее нажмите кнопку "Найти", чтобы применить поиск. 
+
+Шаг 6: Таблица будет отфильтрована в соответствии с выбранными параметрами. Вы увидите только те строки, которые соответствуют вашему фильтру.
+
+Шаг 7: Если вы хотите сбросить все фильтры и показать полную таблицу, нажмите кнопку "Сбросить".
+
+Шаг 8: При необходимости таблицу можно редактировать, добавив в нее строки, нажав на ячейку или написав новые значения в пустую строку.
+
+Шаг 9: После завершения поиска информации в таблице или редактирования, вы можете сохранить найденные результаты при необходимости.
+</value>
+  </data>
+  <data name="textBoxBaseStats_ZAA.Text" xml:space="preserve">
+    <value>Инструкция по использованию статистики по столбцам:
+
+Шаг 1: Выберите в выпадающем списке "Поле" столбец, по которому Вы хотите получить краткую статистику. Это можно сделать, щелкнув на название соответствующего столбца в выпадающем списке. Если Вам необходимо характеристика "Количество упоминаний", то в поле "Значение" введите необходимое значение. 
+
+Шаг 2: Выберите функцию статистики в выпадающем списке "Значение статистики". Популярные функции статистики включают сумму, среднее значение, количество упоминаний, минимальное и максимальное значение.
+
+Шаг 3: Выполните выбранную функцию статистики, нажав кнопку "Найти". 
+
+Шаг 4: Просмотрите результаты статистики. Результаты отображаются в окне вывода. Вы можете увидеть сумму, среднее значение, количество упоминаний, минимальное и максимальное значение для выбранного столбца данных.
+
+Шаг 5: Повторите шаги 1-3 для других столбцов данных, если нужно получить статистику для других значений.</value>
+  </data>
+  <data name="textBoxFullStats_ZAA.Text" xml:space="preserve">
+    <value>Инструкция для использования статистики с графиком с определенным диапазоном и данными:
+
+Шаг 1: Выберите в выпадающем списке "Поле периода" столбец, по которому будет выбран период для статистики. Это можно сделать, щелкнув на название соответствующего столбца в выпадающем списке. В поле "Начальное значение" введите минимальное значение диапазона и в поле "Конечное значение" введите максимальное значение диапазона (только для числовых значений).
+
+Шаг 2: Выберите в выпадающем списке "Поле поиска" стобец, по которому будет строиться график. Если необходимо построить график по количеству упоминай определенного значения, введите это значение в поле "Значение поля".
+
+Шаг 3: Выберите в выпадающем списке "Значение статистики" функцию статистики для определенного периода. 
+
+Шаг 4: Для построения графика нажмите кнопку "Поиск".</value>
+  </data>
+</root>
